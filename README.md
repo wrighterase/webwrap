@@ -10,7 +10,7 @@ Webwrap is a simple script that will use your web shell to simulate a terminal, 
 
 # Features
 
-- Naviguate in the file system as if you were in it, using `cd`
+- Navigate in the file system as if you were in it, using `cd`
 - You can use ``&&``, ``|``, everything you like
 - Browse your commands history and re-use them (not really a feature, it uses `rlwrap`)
 
@@ -30,7 +30,7 @@ $ rlwrap python3 webwrap.py http://<LINK>/my_verycool_webshell.php?cmd=WRAP
 
 # Installation
 
-*Please use Python 3, I don't know how it looks on Python 2.*
+*Please use Python 3, The HTTPX package is not supported on Python 2*
 
 ## Linux (Quick install)
 
@@ -42,7 +42,7 @@ curl -s https://raw.githubusercontent.com/mxrch/webwrap/master/install.sh | sudo
 ```bash
 git clone https://github.com/mxrch/webwrap;
 cd webwrap;
-sudo python3 -m pip install -r requirements.txt
+sudo python3 -m pip3 install -r requirements.txt
 ```
 *(Optional)* You can also install rlwrap :
 ```bash
@@ -55,7 +55,7 @@ It will give you the ability to reuse your commands through the commands history
 ```cmd
 git clone https://github.com/mxrch/webwrap;
 cd webwrap;
-python -m pip install -r requirements.txt
+python -m pip3 install -r requirements.txt
 ```
 
 ****
